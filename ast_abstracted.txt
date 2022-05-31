@@ -1,0 +1,19 @@
+TranslationUnitDecl
+TypedefDecl
+ BuiltinType
+TypedefDecl
+ BuiltinType
+TypedefDecl
+ RecordType
+   CXXRecord
+TypedefDecl
+ PointerType
+   BuiltinType
+TypedefDecl
+ ConstantArrayType
+   RecordType
+     CXXRecord
+FunctionDecl
+  CompoundStmt
+    ReturnStmt
+      IntegerLiteral

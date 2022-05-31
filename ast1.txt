@@ -1,0 +1,19 @@
+TranslationUnitDecl 0x7f9bd283d808 <<invalid sloc>> <invalid sloc>
+\TypedefDecl 0x7f9bd283e110 <<invalid sloc>> <invalid sloc> implicit __int128_t '__int128'
+ \BuiltinType 0x7f9bd283ddb0 '__int128'
+\TypedefDecl 0x7f9bd283e180 <<invalid sloc>> <invalid sloc> implicit __uint128_t 'unsigned __int128'
+ \BuiltinType 0x7f9bd283ddd0 'unsigned __int128'
+\TypedefDecl 0x7f9bd283e500 <<invalid sloc>> <invalid sloc> implicit __NSConstantString '__NSConstantString_tag'
+ \RecordType 0x7f9bd283e270 '__NSConstantString_tag'
+   \CXXRecord 0x7f9bd283e1d8 '__NSConstantString_tag'
+\TypedefDecl 0x7f9bd283e5a8 <<invalid sloc>> <invalid sloc> implicit __builtin_ms_va_list 'char *'
+ \PointerType 0x7f9bd283e560 'char *'
+   \BuiltinType 0x7f9bd283d8b0 'char'
+\TypedefDecl 0x7f9bd287af48 <<invalid sloc>> <invalid sloc> implicit __builtin_va_list '__va_list_tag [1]'
+ \ConstantArrayType 0x7f9bd287aef0 '__va_list_tag [1]' 1 
+   \RecordType 0x7f9bd283e690 '__va_list_tag'
+     \CXXRecord 0x7f9bd283e600 '__va_list_tag'
+\FunctionDecl 0x7f9bd287aff0 <hello1.cpp:3:1, line:6:1> line:3:5 main 'int ()'
+  \CompoundStmt 0x7f9bd287b220 <col:12, line:6:1>
+    \ReturnStmt 0x7f9bd287b210 <line:5:5, col:12>
+      \IntegerLiteral 0x7f9bd287b1f0 <col:12> 'int' 0

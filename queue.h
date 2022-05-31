@@ -15,8 +15,8 @@ class Queue {
     Queue();            
     ~Queue();           
     void delete_stack(queue_node *node_ptr); 
-    void AddQ(string data);
-    string  DeleteQ();
+    void AddQ(int v);
+    int  DeleteQ();
     void Print();
     bool IsEmpty();
 };
@@ -41,14 +41,13 @@ void Queue::delete_stack(queue_node* node_ptr)
     }
 }
 
-void Queue::AddQ(string data)
+void Queue::AddQ(int v)
 {
     queue_node *new_node = new queue_node;
 
     if (new_node == NULL)
         return;
-
-    new_node->data = data;
+    new_node->vertex = v;
     new_node->link = NULL;
     if (front) 
         rear->link = new_node;       
@@ -59,14 +58,13 @@ void Queue::AddQ(string data)
 }
 
 
-string Queue::DeleteQ()
-{
-    string data;
+int Queue::DeleteQ() {
+    int data;
     queue_node *del = NULL;
     if (front == NULL)
-        return NULL;
+        return -1;
 
-    data = front->data;
+    data = front->vertex;
     del = front;
     front = front->link;
     delete del;
